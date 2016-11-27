@@ -1,0 +1,7 @@
+#cloud-config
+users:
+  - name: oxean
+    ssh-authorized-keys:
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    groups: sudo
+    shell: /bin/bash
